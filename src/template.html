@@ -3,7 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Battleship</title>
   </head>
-  <body></body>
+  <body>
+    <h1>BATTLESHIP</h1>
+    <div class="controls">
+      <button id="rotate-btn">Rotate Ship (Horizontal)</button>
+      <button id="reset-btn">New Game</button>
+    </div>
+    <div class="game-container">
+      <div class="board-container">
+        <h2>Your Board</h2>
+        <div id="player-board" class="board"></div>
+      </div>
+      <div class="board-container">
+        <h2>Computer's Board</h2>
+        <div id="computer-board" class="board"></div>
+      </div>
+    </div>
+    <div class="message" id="message">
+      Place your ships! Click on your board to place ships.
+    </div>
+  </body>
 </html>
